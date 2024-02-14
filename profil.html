@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Flex/flex.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="icon" type="image/png" href="img/téléchargement.png">
+</head>
+
+<body>
+    <header class="Bande">
+        <nav>
+            <input type="checkbox" role="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+            <ul id="menu" class="flexible justify-content-space-around flex-direction-row-reverse flex-wrap-wrap ">
+    
+                <li><a href="profil.html" id="active">Profil</a>&#11164</li>
+                <li><a href="lesJeuxQueJePossede.html">Mes jeux</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <!-- Source menu : https://www.guyom-design.com/blog/astuces/css/creer-hamburger-menu-css/ -->
+            </ul>
+        </nav>
+    </header>
+    <main main class="main">
+        <h1>Votre page profil</h1>
+        <div class="flexible flex-warp justify-content-space-evenly">
+         <div class="top">
+             <ol class="flexible align-items-center flex-direction-column">
+                 <li>Nom
+                     <p>Limet</p>
+                 </li>
+                 <li>Prénom
+                     <p>Maxence</p>
+                 </li>
+                 <li>Jeux préférer
+                     <p>Minecraft</p>
+                 </li>
+                 <li>Photo de profil</li>
+             </ol>
+             <div>
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                </div>
+                <img id="imageProfil" src="IMG/7b2087340318d339a2d15883b328f2ac.jpg"alt="photo profil">
+            </div>
+         </div>
+        </div>
+    </main>
+    <footer class="flexible justify-content-space-between remonte">
+        <p>Limet Maxence</p>
+        <a class="xbox" href="https://www.xbox.com/fr-BE/xbox-game-pass" target="_blank" rel="noopener noreferrer"><ion-icon size="large" name="logo-xbox"></ion-icon></a>
+        <div class="flexible justify-content-space-around rotate:hover">
+            <a class="reseau" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a class="reseau" href="https://www.facebook.com/?locale=fr_FR" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a class="reseau" href="https://discord.com/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-discord"></ion-icon></a>
+        </div>
+    </footer>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+    <script  nomodule  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+</body>
+
+</html>

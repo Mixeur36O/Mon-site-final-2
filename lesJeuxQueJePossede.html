@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les jeux que je possède</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="Flex/flex.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="icon" type="image/png" href="img/téléchargement.png">
+</head>
+
+<body>
+  <header class="Bande"> 
+    <nav>
+      <input type="checkbox" role="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+      <ul id="menu" class="flexible justify-content-space-around flex-direction-row-reverse flex-wrap-wrap ">
+
+          <li><a href="profil.html" id="active">Profil</a></li>
+          <li><a href="lesJeuxQueJePossede.html">Mes jeux</a>&#11164</li>
+          <li><a href="index.html">Accueil</a></li>
+          <!-- Source menu : https://www.guyom-design.com/blog/astuces/css/creer-hamburger-menu-css/ -->
+      </ul>
+  </nav>
+  </header>
+  <main main class="main">
+    <h1>Les jeux que je possède</h1>
+    <div  class="flexible flex-warp justify-content-space-evenly">
+     <div class="top">
+      <h2>Grounded</h2>
+       <img src="IMG/capsule_616x353.jpg" alt="L'image principale du jeux">
+       <p>Date de sortie : 20 juillet 2019 (en bêta).</p>
+       <p>Le jeu coûte actuellement <strong>40€</strong> sur Steam et <strong>gratuit</strong> avec le GamePass</p>
+       <a class="scale" href="descriptionDuJeu.html"> Voir jeu en détail</a>
+     </div>
+     <div class="top">
+       <h2>Minecraft</h2>
+       <img src="IMG/H2x1_NSwitch_Minecraft.jpg" alt="image principale du jeux">
+       <p>Date de sortie : 18 novembre 2011</p>
+       <p>Le jeu coûte actuellement <strong>17,99 €</strong> mais <strong>à une réduction</strong> avec le game pass</p>
+       <a class="scale" href="descriptionDuJeu.html"> Voir jeu en détail</a>
+     </div>
+    </div>
+  </main>
+  <footer class="flexible justify-content-space-between remonte">
+    <p>Limet Maxence</p>
+    <a class="xbox" href="https://www.xbox.com/fr-BE/xbox-game-pass" target="_blank" rel="noopener noreferrer"><ion-icon size="large" name="logo-xbox"></ion-icon></a>
+    <div class="flexible justify-content-space-around rotate:hover">
+      <a class="reseau" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="https://www.facebook.com/?locale=fr_FR" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="https://discord.com/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-discord"></ion-icon></a>
+    </div>
+  </footer>
+  <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+    <script  nomodule  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+</body>
+
+</html>

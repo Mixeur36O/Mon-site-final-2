@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description du jeu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Flex/flex.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="icon" type="image/png" href="img/téléchargement.png">
+</head>
+
+<body>
+    <header class="Bande">
+        <nav>
+            <input type="checkbox" role="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+            <ul id="menu" class="flexible justify-content-space-around flex-direction-row-reverse flex-wrap-wrap ">
+    
+                <li><a href="profil.html" id="active">Profil</a></li>
+                <li><a href="lesJeuxQueJePossede.html">Mes jeux</a></li>
+                <li><a href="index.html">Accueil</a></li>
+                <!-- Source menu : https://www.guyom-design.com/blog/astuces/css/creer-hamburger-menu-css/ -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Description de Grounded</h1>
+    <div class="flexible flex-warp justify-content-space-evenly">
+      <div class="description">
+        <div>
+            <h2>Image du jeux</h2>
+            <img src="IMG/Grounded-game..jpg" alt="L'image principale du jeux" width="450">
+        </div>
+        <div>
+            <h2>Le prix et les platforme</h2>
+            <p>Les plateforme sont : PC et xbox</p>
+            <h3>Le prix est de 40€</h3>
+        </div>
+        <div>
+            <h2>Description</h2>
+            <p class="justifier">Grounded est un jeu vidéo de survie développé par Obsidian Entertainment et édité par Xbox Game Studios,
+                sorti le 28 juillet 2020 en accès anticipé sur Windows et Xbox One. Dans le jeu, notre personnage a été
+                réduit à la taille d'un insecte et doit lutter pour survivre dans un jardin rempli de dangers.
+            </p>
+        </div>
+        <div>
+            <h2>Tableau</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Information</th>
+                        <th>Données</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Nombre de joueur dans une game</td>
+                        <td>2 (mais limité)</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>nombre de mode jeux</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>multijoueur</td>
+                        <td>4 joueur seulement en ligne</td>
+                    </tr>
+                    <tr>
+                        <td>mode créatif ou personnalisable</td>
+                        <td>oui</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2 class="camion">Trailer du Grounded</h2>
+            <iframe src="https://www.youtube.com/embed/_BqgJ9nW468"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div>
+            <h2 class="camion">Localisation de l'entreprise</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61397.31778660791!2d-117.77048983340802!3d33.64805301552696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce7f9f2055f7b%3A0x336774ca88a458c2!2sObsidian%20Entertainment!5e0!3m2!1sfr!2sbe!4v1671012225273!5m2!1sfr!2sbe"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h2>Me contacter</h2>
+        <div class="form-group">
+            <label for="information">Message  </label>
+            <input type="email">
+            <div class="flex justify-content-center align-item-center">
+                <button id="btn-send" class="btn btn-send send">Envoyer</button>
+        </div>
+    </div>
+    </main>
+    <footer class="flexible justify-content-space-between remonte">
+        <p>Limet Maxence</p>
+        <a class="xbox" href="https://www.xbox.com/fr-BE/xbox-game-pass" target="_blank" rel="noopener noreferrer"><ion-icon size="large" name="logo-xbox"></ion-icon></a>
+        <div class="flexible justify-content-space-around rotate:hover">
+            <a class="reseau" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.facebook.com/?locale=fr_FR" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://discord.com/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-discord"></ion-icon></a>
+        </div>
+    </footer>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+        <script  nomodule  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+</body>
+
+</html>
